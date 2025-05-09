@@ -1,0 +1,86 @@
+Getting Started with Nero
+This tutorial introduces the Nero programming language and walks you through creating and running a simple program.
+
+Note: The stable version of Nero may include changes to compilers or syntax. Verify details in the source code.
+
+What is Nero?
+Nero, crafted by Arinara Network Studio, is an experimental language designed to make coding intuitive. Its syntax mimics natural language, as seen in commands like Tanyakan "Siapa namamu?" simpan ke nama. This repository is a final archive, but the stable version may reflect modifications by the development team.
+Why Try Nero?
+
+Beginner-Friendly: Learn programming with simple, readable syntax.
+Experimental: Explore a unique approach to language design.
+Educational: Understand how compilers translate code.
+
+Writing Your First Program
+Follow these steps to create a “Hello, World!” program in Nero:
+
+Set Up Your Environment:
+Follow the setup guide in the development guides folder.
+Ensure clang and git are installed.
+
+
+Create a Program:
+Make a file named test.nero:Pake Nero
+Tampilkan "Halo, dunia!"
+(Jalan)
+
+
+This program prints “Halo, dunia!” (Hello, world!).
+
+
+Compile the Program:
+Navigate to a directory with a stable compiler.
+Build and run:clang compiler.c -o nero_compiler
+./nero_compiler test.nero
+./a.out
+
+
+Expected output: Halo, dunia!
+
+
+Debugging:
+Use the --debug flag for detailed logs:./nero_compiler test.nero --debug
+
+
+
+
+
+Example Output
+
+
+
+Step
+Command
+Result
+
+
+
+Compile
+./nero_compiler test.nero
+Generates a.out
+
+
+Run
+./a.out
+Prints Halo, dunia!
+
+
+Exploring Further
+Try a more complex program:
+Pake Nero
+Tanyakan "Siapa namamu?" simpan ke nama
+Atur salam "Halo, " gabung nama gabung "!"
+Tampilkan salam
+(Jalan)
+
+This asks for a name and prints a personalized greeting.
+
+Important: The stable version may support additional syntax or behave differently. Check the source code for accuracy.
+
+Tips
+
+Use stable compilers for reliable results.
+Refer to the documentation for Nero’s full syntax.
+Experiment with tutorials to learn more features.
+
+This tutorial offers a hands-on introduction to Nero, showcasing its unique, conversational approach to programming.
