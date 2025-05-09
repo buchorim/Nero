@@ -1,80 +1,52 @@
-Repository Organization Guide
-This guide provides a clear overview of the Nero repository’s structure, helping you navigate its components with ease.
+Notes on Nero Compilers
+This document catalogs the compilers developed for the Nero programming language, providing insights into their purpose, status, and characteristics.
 
-Note: The stable version of Nero may include changes to the repository’s contents. Verify details by checking the source code.
+Note: The stable version of Nero may include or exclude certain compilers or features. Check the source code for the most accurate details.
 
-Purpose
-The Nero repository, developed by Arinara Network Studio, is a final archive of an experimental programming language. Its organization is designed to make the project’s tools, documentation, and experiments accessible to users studying or exploring Nero.
-Repository Structure
-The repository is divided into several key areas, each serving a specific role:
+Overview
+As an experimental project by Arinara Network Studio, Nero includes multiple compilers to test its natural language-inspired syntax. These compilers vary in stability and functionality, reflecting different approaches to translating Nero code into executable programs.
+Compiler Categories
+Nero’s compilers are organized into three groups:
 
-Compiler Collections:
-Stable: Contains compilers that reliably compile Nero programs.
-Experimental: Stores untested or incomplete compilers for research purposes.
-Unsuccessful: Archives compilers that did not meet expectations, kept for reference.
-
-
-Documentation:
-Guides covering Nero’s goals, repository layout, and compiler details.
+Stable Compilers:
+Fully functional and tested, capable of compiling Nero programs reliably.
+Suitable for running example programs or studying compiler design.
 
 
-Development Guides:
-Technical resources for setting up and understanding Nero’s codebase.
+Experimental Compilers:
+In-progress or untested, exploring new parsing or code generation techniques.
+May be incomplete but offer valuable insights into Nero’s development.
 
 
-Tutorials and Experiments:
-Practical examples and notes on Nero’s features and development tests.
-
-
-Project Metadata:
-Includes the project license, main overview, and version control settings.
+Unsuccessful Compilers:
+Attempts that failed to meet goals, preserved for learning purposes.
+Useful for understanding challenges in compiler design.
 
 
 
-Visual Overview
+Example Use Case
+A stable compiler might process this Nero program:
+Pake Nero
+Atur umur 25
+Tampilkan "Umurku " gabung umur gabung " tahun."
+(Jalan)
+
+This code sets a variable umur to 25 and prints “Umurku 25 tahun.” Experimental compilers might handle additional syntax, but their reliability varies.
+Documentation Format
+Each compiler is documented with:
+
+Purpose: The intended functionality or experiment.
+Status: Stable, experimental, or unsuccessful.
+Notes: Limitations, unique features, or reasons for failure.
 
 
+Important: The development team may have altered compilers in the stable version, affecting their behavior or availability. Refer to the source code for specifics.
 
-Section
-Purpose
-Example Content
+Exploring Compilers
+To study a compiler:
 
+Locate Its Category: Check the repository’s compiler collections.
+Review Source Code: Look for accompanying documentation or comments.
+Test with Examples: Use tutorials to run sample programs with stable compilers.
 
-
-Compilers
-Store tools for compiling Nero code
-Stable, experimental, or archived compilers
-
-
-Documentation
-Explain the project and its structure
-This guide, project introduction
-
-
-Development Guides
-Detail technical setup and code design
-Environment setup, code conventions
-
-
-Tutorials
-Provide hands-on learning
-Example programs, parsing tests
-
-
-Metadata
-Cover licensing and project info
-MIT license, README
-
-
-How to Navigate
-To make the most of the repository:
-
-Start with the Root Directory: The README.md offers a high-level overview and setup instructions.
-Read Documentation: This folder provides context on Nero’s design and organization.
-Explore Tutorials: The tutorials folder includes examples to help you write Nero code.
-Check Compilers: Investigate stable compilers for practical use or experimental ones for study.
-
-
-Reminder: Arinara Network Studio may have modified the stable version, affecting the contents described here. Always consult the source code for the latest information.
-
-This structure ensures that whether you’re a learner, researcher, or developer, you can easily find the resources you need to explore Nero’s innovative design.
+This document serves as a reference for understanding the evolution of Nero’s compilers, offering a window into Arinara Network Studio’s experimental journey.
